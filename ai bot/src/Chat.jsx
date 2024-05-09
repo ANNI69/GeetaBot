@@ -8,7 +8,7 @@ const ChatBot = () => {
       const div = document.createElement('div');
       div.id = 'aichatbot';
       document.body.appendChild(div);
-      window.chatbotConfig = ['E0AD0720-82C5-44D3-AD80-B5F1E3E460E6', 'onboarding_bot'];
+      window.chatbotConfig = ['42813D3C-73E0-4B43-AE37-6029A38DFB11', 'onboarding_bot'];
 
       const script = document.createElement('script');
       script.defer = true;
