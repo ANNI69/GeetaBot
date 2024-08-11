@@ -7,12 +7,22 @@
 /* App.css */
 
 body {
-  background-image: url('./assets/bg.png');
+  background-image: url("./assets/bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("./assets/bg-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+  }
 }
 
 #chatbot-container {
