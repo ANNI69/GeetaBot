@@ -8,7 +8,7 @@ const ChatBot = () => {
       const div = document.createElement('div');
       div.id = 'aichatbot';
       document.body.appendChild(div);
-      window.chatbotConfig = ['42813D3C-73E0-4B43-AE37-6029A38DFB11', 'onboarding_bot'];
+      window.chatbotConfig = ['42813D3C-73E0-4B43-AE37-6029A38DFB11', 'onboarding_bot']; // Your Sendbird Chatbot App ID and Bot ID // 647B2075-EA25-4B4B-A235-5D196C5B8209 - For Mahabharata Bot
 
       const script = document.createElement('script');
       script.defer = true;
